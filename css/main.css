@@ -2,7 +2,7 @@
 @import url(../css/html5reset-1.6.1.css); /*reset css*/
 
 /*Google Fonts*/
-@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&family=Patrick+Hand&family=Roboto&display=swap');
 
 html {
     font-size: 24px;
@@ -13,6 +13,12 @@ body {
     font-family: 'Kiwi Maru', serif;
 }
 /* global */
+.number {
+    font-family: 'Roboto', sans-serif;
+}
+.alphabet {
+    font-family: 'Patrick Hand', cursive;
+}
 .inner {
   max-width: 980px;
   margin: 0 auto;
