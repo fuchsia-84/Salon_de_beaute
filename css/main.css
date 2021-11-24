@@ -12,6 +12,7 @@ body {
     background-color: #FFFCD5;
     font-family: 'Kiwi Maru', serif;
 }
+/* global */
 .inner {
   max-width: 980px;
   margin: 0 auto;
@@ -22,7 +23,6 @@ body {
   clear: both;
   display: block;
 }
-
 .section_title {
     text-align: center;
 }
@@ -43,6 +43,22 @@ body {
 .section_title p {
     font-size: 1.0rem;
     line-height: 75px;
+}
+.br_pc {
+    display: block;
+}
+@media screen and  (max-width: 768px) {
+    .br_pc {
+        display: none;
+    }
+}
+.br_sp {
+    display: none;
+}
+@media screen and  (max-width: 768px) {
+    .br_sp {
+        display: block;
+    }
 }
 
 /* header */
@@ -118,4 +134,32 @@ body {
     position: absolute;
     top: 465px;
     left: 10%;
+}
+
+/* concept */
+.concept ul {
+    max-width: calc(100% - 80px);
+    list-style: none;
+    margin: 80px auto;
+}
+.concept li span {
+    display: inline-block;
+    vertical-align: middle;
+    width: 2.0rem;
+    padding: 0.5rem 0;
+    margin-right: 10px;
+    border-radius: 1.0rem;
+    color: #ffffff;
+    background-color: #9D8154;
+    text-align: center;
+}
+.concept li p {
+    width: calc(100% - 2.0rem - 10px);
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5rem;
+    letter-spacing: 0.005em;
+}
+.concept li {
+    margin-bottom: 30px;
 }
