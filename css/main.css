@@ -273,6 +273,73 @@ body {
     }
 }
 
+/* access */
+.access_top, .access_bottom {
+    display: block;
+    width: calc(100% - 80px);
+    margin: 0 auto;
+}
+.access_top {
+    white-space: nowrap;
+    margin: 40px auto;
+}
+.access_top img {
+    display: inline-block;
+    width: 50%;
+    height: 300px;
+    vertical-align: top;
+    mask-position: center;
+    -webkit-mask-position: center;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    /* ToDo: fix mask image */
+}
+#salon_image {
+    mask-image: url(../svg/access.svg);
+    -webkit-mask-image: url(../svg/access.svg);
+    mask-mode: alpha;
+    -webkit-mask-mode: alpha;
+    /* ToDo: fix mask image */
+}
+.access_top .salon_info {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+.access_top .salon_info h1 {
+    display: block;
+    width: calc(100% - 20px);
+    padding-left: 20px;
+    margin-bottom: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.005em;
+    border-bottom: #9D8154 4px dotted;
+}
+.access_top .salon_info dl {
+    display: block;
+    width: calc(100% - 20px);
+    padding-left: 20px;
+}
+.access_top .salon_info dt {
+    float: left;
+    width: 114px;
+    padding: 0.25rem 0 0.25rem;
+    text-align: center;
+    color: #ffffff;
+    background-color: #9D8154;
+    border-radius: 0.75rem;
+}
+.access_top .salon_info dd {
+    display: block;
+    padding-top: 0.25rem;
+    padding-left: 124px;
+    margin-bottom: 10px;
+}
+
 /* footer */
 #footer {
     display: block;
