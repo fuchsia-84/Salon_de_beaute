@@ -38,7 +38,7 @@ body {
     line-height: 1.5em;
     letter-spacing: 0.05em;
 }
-.section_title span {
+.section_title div {
     display: block;
     width: 90px;
     height: 4px;
