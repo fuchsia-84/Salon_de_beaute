@@ -288,6 +288,171 @@ body {
     }
 }
 
+/* menu */
+.menu .inner {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.menu .menu_top {
+    margin: 80px auto 20px;
+}
+.menu_top::after, .menu_bottom::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+.menu .menu_content {
+    width: calc(50% - 40px);
+    vertical-align: top;
+    border: #9D8154 solid 4px;
+    border-radius: 1.0rem;
+}
+.menu .menu_content h1 {
+    font-size: 1.0rem;
+    line-height: 1.33rem;
+    height: 1.33rem;
+}
+.menu .menu_content dl {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.menu .menu_content h1 {
+    font-size: 1.0rem;
+    line-height: 1.33rem;
+    color: #9D8154;
+    height: 1.333rem;
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 3px 0 9px;
+    text-align: center;
+    border-bottom: #9D8154 dotted 2px;
+    /* ToDo: fix border */
+}
+.menu_content:nth-child(odd) {
+    float: left;
+    margin-right: 20px;
+}
+.menu_content:nth-child(even) {
+    float: right;
+    margin-left: 20px;
+}
+.menu_bottom .menu_content:nth-child(2) {
+    margin-bottom: 20px;
+}
+.menu_bottom .menu_content:nth-child(3) {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+.menu_content dl {
+    font-size: 0.66rem;
+    line-height: 1.0rem;
+}
+.menu_content dt::before {
+    display: inline-block;
+    content: '';
+    width: 0.86rem;
+    height: 0.86rem;
+    background-color: #9D8154;
+    border-radius: 1.0em;
+    position: absolute;
+    top: 0.07rem;
+    left: 0;
+}
+.menu_content dt {
+    float: left;
+    font-size: 0.66rem;
+    line-height: 1.0rem;
+    padding-left: calc(0.86rem + 10px);
+    position: relative;
+    margin: 10px 0;
+}
+.menu_content dd {
+    float: right;
+    margin-top: 10px;
+}
+.menu_content dd::before {
+    content: '¥';
+    font-family: 'Patrick Hand', cursive;
+}
+.menu .colum {
+    display: block;
+    width: 100%;
+    margin: 40px auto;
+    border: #9D8154 solid 4px;
+    border-radius: 1.0rem;
+    position: relative;
+}
+.menu .colum h1 {
+    font-size: 1.5rem;
+    line-height: 1.0em;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    padding: 0.5rem 0;
+    margin-top: -4px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #9D8154;
+    border-radius: 1.0rem 1.0rem 0 0;
+}
+.menu .colum .colum_border {
+    display: block;
+    width: calc(100% - 40px);
+    position: absolute;
+    top: calc(68px + 1.0em);
+    left: 20px;
+}
+.menu .colum .colum_border span {
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-bottom: #9D8154 dotted 2px;
+}
+.menu .colum_content {
+    width: calc(100% - 40px);
+    margin: 40px auto 0;
+}
+.menu .colum_content p {
+    display: block;
+    text-align: center;
+    width: calc(100% - 40px);
+    font-size: 0.75rem;
+    line-height: 2.22em;
+    letter-spacing: 0.05em;
+}
+.menu .colum a {
+    display: block;
+    width: 240px;
+    margin: 30px auto;
+    font-size: 0.75rem;
+    line-height: 1.0em;
+    color: #ffffff;
+    background-color: #9D8154;
+    padding: 0.625rem 0;
+    border-radius: 2.22em;
+    text-align: center;
+    text-decoration: none;
+}
+.menu .card {
+    color: #9D8154;
+    text-align: center;
+}
+.menu .card p {
+    font-size: 0.75rem;
+    line-height: 1.0rem;
+}
+.menu .card ul {
+    display: block;
+    margin-top: 10px;
+    list-style: none;
+}
+.menu .card ul li {
+    display: inline-block;
+    font-size: 2.0rem;
+    margin-right: 20px;
+}
 /* reserve */
 .reserve .inner {
     width: calc(100% - 40px);
