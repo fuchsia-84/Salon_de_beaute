@@ -323,11 +323,12 @@ body {
     display: block;
     width: calc(100% - 20px);
     padding-left: 20px;
+    font-size: 0.75rem;
 }
 .access_top .salon_info dt {
     float: left;
     width: 114px;
-    padding: 0.25rem 0 0.25rem;
+    padding: 0.5em 0 0.5em;
     text-align: center;
     color: #ffffff;
     background-color: #9D8154;
@@ -335,9 +336,9 @@ body {
 }
 .access_top .salon_info dd {
     display: block;
-    padding-top: 0.25rem;
+    padding-top: 0.5em;
     padding-left: 124px;
-    margin-bottom: 10px;
+    margin-bottom: calc(0.5em + 10px);
 }
 
 /* footer */
