@@ -6,12 +6,23 @@
 
 html {
     font-size: 24px;
+    position: relative;
 }
 body {
     color: #777777;
     background-color: #FFFCD5;
     font-family: 'Kiwi Maru', serif;
+    position: relative;
 }
+@media screen and (max-width: 900px) {
+    body, header {
+        max-width: 1080px;
+        min-width: 1080px;
+        position: relative;
+    }
+    /* For viewing PC style ONLY */
+}
+
 /* global */
 .number {
     font-family: 'Roboto', sans-serif;
