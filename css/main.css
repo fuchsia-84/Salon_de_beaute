@@ -35,20 +35,24 @@ body {
 .section_title h1 {
     font-family: 'Patrick Hand', cursive;
     font-size: 50px;
-    line-height: 1.5em;
+    line-height: 1.0em;
+    padding-top: 9px;
+    padding-bottom: 9px;
     letter-spacing: 0.05em;
 }
 .section_title div {
     display: block;
     width: 90px;
     height: 4px;
-    margin: 7px auto 16px;
+    margin: 7px auto 0;
     background-color: #9D8154;
     border-radius: 4px;
 }
 .section_title p {
     font-size: 1.0rem;
-    line-height: 75px;
+    line-height: 1.0rem;
+    padding-top: 23px;
+    padding-bottom: 6px;
 }
 .br_pc {
     display: block;
@@ -272,6 +276,132 @@ body {
         display: block;
     }
 }
+
+/* reserve */
+.reserve .inner {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+}
+.reserve_info {
+    text-align: center;
+    margin: 80px auto 40px;
+}
+.reserve_info .tell {
+    display: block;
+    max-width: 250px;
+    margin: 0 auto;
+    font-size: 1.0rem;
+    line-height: 1.0rem;
+    padding: 2px 0;
+    border: #9D8154 solid 5px;
+    border-radius: 1.0rem;
+    position: relative;
+}
+.reserve_info .tell i {
+    padding: 8px;
+    color: #ffffff;
+    background-color: #9D8154;
+    border-radius: 40px;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+.reserve_info .tell span {
+    margin-left: 60px;
+    letter-spacing: 0.05em;
+}
+.reserve_info .hb_link {
+    display: block;
+    width: 100%;
+    margin: 27px auto;
+    text-align: center;
+    font-size: 1.0rem;
+    line-height: 1.0rem;
+}
+.reserve_info .hb_link span {
+    margin-left: 20px;
+}
+.reserve_info .hb_link a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #9D8154;
+    padding: 2.5px 20px 2.5px 20px;
+    border-radius: 40px;
+    position: relative;
+}
+.reserve_info .hb_link i {
+    background-color: #9D8154;
+    padding: 8px 12.5px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.reserve .time {
+    display: block;
+    width: 100%;
+    white-space: nowrap;
+    color: #9D8154;
+}
+.reserve .time h1 {
+    font-size: 1.0rem;
+    line-height: 1.33rem;
+    height: 1.33rem;
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    padding: 3px 0 9px;
+    text-align: center;
+    border-bottom: #9D8154 dotted 2px;
+    /* ToDo: fix border */
+}
+.reserve .time dl {
+    display: block;
+    width: calc(100% - 4px);
+    margin: 20px 0 0 auto;
+}
+.reserve .time dt {
+    float: left;
+    width: 100px;
+    text-align: center;
+    font-size: 0.67rem;
+    line-height: 1.0rem;
+    color: #ffffff;
+    background-color: #9D8154;
+    border-radius: 1.0rem;
+}
+.reserve .time dd {
+    display: block;
+    padding-left: 120px;
+    margin-bottom: 20px;
+    font-size: 0.75rem;
+    line-height: 1.0rem;
+}
+.reserve .time_right dt {
+    width: 132px;
+}
+.reserve .time_right dd {
+    padding-left: 152px;
+}
+.reserve .time .time_detail {
+    display: block;
+    font-size: 0.5rem;
+    line-height: 1.5em;
+}
+.reserve .time_left, .reserve .time_right {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(50% - 20px);
+    border: #9D8154 solid 4px;
+    border-radius: 1.0rem;
+}
+.reserve .time_left {
+    margin-right: 20px;
+}
+.reserve .time_right {
+    margin-left: 20px;
+}
+
 
 /* access */
 .access_top, .access_bottom {
