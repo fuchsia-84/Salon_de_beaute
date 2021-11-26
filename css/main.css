@@ -91,6 +91,7 @@ body {
     color: #ffffff;
     background-color: transparent;
     z-index: 1000;
+    transition: all 0.5s ease-in;
 }
 #header .inner {
     padding: 0;
@@ -102,6 +103,9 @@ body {
     font-size: 50px;
     line-height: 1.5em;
     letter-spacing: 0.05em;
+}
+#header.fixed {
+    background-color: #9D8154;
 }
 #global_nav {
     display: none;
