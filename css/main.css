@@ -723,6 +723,11 @@ body {
     padding-left: 124px;
     margin-bottom: calc(0.5em + 10px);
 }
+.access_map {
+    display: block;
+    width: 100%;
+    height: 400px;
+}
 
 /* footer */
 #footer {
