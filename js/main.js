@@ -2,7 +2,8 @@ $(function() {
     $toggle_btn = $('.toggle_btn');
     $global_nav = $('#global_nav');
     $header = $('#header');
-    window_height = $(window).height();
+    var header_height = $header.outerHeight();
+    var window_height = $(window).height();
 
 
     /* toggle button clicked, show global navigation*/
@@ -18,6 +19,17 @@ $(function() {
         } else {
             $header.removeClass('fixed');
         }
+    });
+
+    /* smooth scroll  */
+    $('a[href^="#"]').click(function() {
+        var speed = 500;
+        var href = $(this).attr("href");
+        var target = $(href == "#" || href == "" ? 'html' : href);
+        var adjust = header_height;
+        var position = target.offset().top - adjust;
+        $('body,html').animate({scrollTop:position}, speed, 'swing');
+        return false;
     });
 
     /* style gallery for PC */
