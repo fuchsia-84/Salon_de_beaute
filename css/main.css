@@ -183,7 +183,8 @@ body {
 .top {
     display: block;
     width: 100%;
-    height: 1080px;
+    height: 100vh;
+    min-height: 750px;
     background-image: url(../img/top.jpg);
     background-size: cover;
     background-position: center;
