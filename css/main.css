@@ -115,10 +115,18 @@ body {
         display: none;
     }
 }
-.br_sp {
+.br_tab {
     display: none;
 }
 @media screen and  (max-width: 768px) {
+    .br_tab {
+        display: block;
+    }
+}
+.br_sp {
+    display: none;
+}
+@media screen and  (max-width: 500px) {
     .br_sp {
         display: block;
     }
