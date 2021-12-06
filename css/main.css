@@ -1207,6 +1207,34 @@ body {
         display: block;
         width: 100%;
     }
+    .access_top .salon_info h1 {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 9px;
+        margin-bottom: 20px;
+        font-size: 1.0rem;
+        line-height: 1.0em;
+    }
+    .access_top .salon_info dl {
+        width: 100%;
+        padding-left: 0;
+        font-size: 1.0rem;
+    }
+    .access_top .salon_info dt {
+        width: 100px;
+        border-radius: 1.0rem;
+    }
+    .access_top .salon_info dd {
+        padding-top: 0.5em;
+        padding-left: 115px;
+        margin-bottom: 2.5em;
+    }
+    .access_top .salon_info dd:last-of-type {
+        padding-top: 0;
+    }
+    .access_map {
+        height: 300px;
+    }
 }
 
 /* footer */
