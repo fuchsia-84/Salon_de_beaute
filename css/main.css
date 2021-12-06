@@ -92,7 +92,7 @@ body {
 @media screen and (max-width: 768px) {
     .section_title h1 {
         font-family: 'Patrick Hand', cursive;
-        font-size: 1.333rem;
+        font-size: 1.33rem;
         padding-top: 4px;
         padding-bottom: 4px;
     }
@@ -269,7 +269,7 @@ body {
         margin: 100px auto 0;
     }
     #global_nav ul li a {
-        font-size: 1.333rem;
+        font-size: 1.33rem;
         line-height: 2.0em;
     }
     #header .toggle_btn {
@@ -705,7 +705,7 @@ body {
     margin-left: 20px;
 }
 .menu_content dl {
-    font-size: 0.66rem;
+    font-size: 0.67rem;
     line-height: 1.0rem;
 }
 .menu_content dl::after {
@@ -727,7 +727,7 @@ body {
 .menu_content dt {
     float: left;
     width: 60%;
-    font-size: 0.66rem;
+    font-size: 0.67rem;
     line-height: 1.0rem;
     padding-left: calc(0.86rem + 10px);
     position: relative;
@@ -844,7 +844,7 @@ body {
         width: 100%;
     }
     .menu_content dt {
-        font-size: 0.66rem;
+        font-size: 0.67rem;
         line-height: 1.0rem;
         margin: 10px 0;
     }
