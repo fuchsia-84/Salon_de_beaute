@@ -13,7 +13,7 @@ html {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 500px) {
     html {
         font-size: 16px;
     }
@@ -1035,6 +1035,88 @@ body {
 }
 .reserve .time_right {
     margin-left: 20px;
+}
+@media screen and (max-width: 768px) {
+    .reserve_info .tell {
+        max-width: 180px;
+        padding: 2px 0;
+    }
+    .reserve_info .tell i {
+        padding: 6px;
+        position: absolute;
+    }
+    .reserve_info .tell span {
+        margin-left: 20px;
+    }
+    .reserve_info .hb_link {
+        margin: 22px auto;
+        font-size: 1.0rem;
+        line-height: 1.0rem;
+    }
+    .reserve_info .hb_link span {
+        margin-left: 20px;
+    }
+    .reserve_info .hb_link a {
+        padding: 2.5px 20px 2.5px 20px;
+        border-radius: 40px;
+    }
+    .reserve_info .hb_link i {
+        padding: 6px 12.5px;
+    }
+    .reserve .time {
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        color: #9D8154;
+    }
+    .reserve .time dl {
+        display: block;
+        width: calc(100% - 40px);
+        margin: 20px auto;
+        font-size: 1.0rem;
+    }
+    .reserve .time dt {
+        width: 80px;
+        font-size: 0.67rem;
+        line-height: 1.0em;
+        padding: 0.33em 0;
+    }
+    .reserve .time dd {
+        padding-left: 100px;
+        margin-bottom: 20px;
+        font-size: 1.0rem;
+        line-height: 1.0em;
+    }
+    .reserve .time .time_detail {
+        display: block;
+        font-size: 0.67rem;
+        line-height: 1.5em;
+        margin-left: -100px;
+        margin-top: 5px;
+    }
+    .reserve .time_right dt {
+        float: none;
+        width: 103px;
+    }
+    .reserve .time_left, .reserve .time_right {
+        display: block;
+        width: 100%;
+        border: #9D8154 solid 2px;
+        border-radius: 1.0rem;
+    }
+    .reserve .time_left {
+        margin-right: 0;
+    }
+    .reserve .time_right {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width: 500px) {
+    .reserve_info .hb_link {
+        font-size: 0.75rem;
+    }
 }
 
 
