@@ -1205,6 +1205,11 @@ body {
     height: 400px;
 }
 @media screen and (max-width: 768px) {
+    .access_top, .access_bottom {
+        display: block;
+        width: calc(100% - 40px);
+        margin: 0 auto;
+    }
     .access_top img {
         display: block;
         width: 100%;
@@ -1242,6 +1247,12 @@ body {
     }
     .access_map {
         height: 300px;
+    }
+}
+@media screen and (max-width: 500px) {
+    .access_top .salon_info dl {
+        padding-left: 20px;
+        font-size: 0.75rem;
     }
 }
 
