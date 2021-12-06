@@ -37,4 +37,18 @@ $(function() {
         autoPlay: true,
         draggble: false
     });
+
+    /* style gallery for SP*/
+    $('#gallery_sp_1').flickity({
+        autoPlay: true,
+        draggble: false
+    });
+    $('#gallery_sp_2').flickity({
+        autoPlay: true,
+        draggble: false
+    });
+    $('#gallery_sp_3').flickity({
+        autoPlay: true,
+        draggble: false
+    });
 });
