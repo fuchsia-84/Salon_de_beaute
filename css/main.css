@@ -1265,3 +1265,18 @@ body {
     position: absolute;
     top: 41px;
 }
+@media screen and (max-width: 768px) {
+    #footer {
+        height: 80px;
+    }
+    #footer .inner {
+        height: 80px;
+    }
+    #footer p small {
+        color: #ffffff;
+        font-size: 0.67rem;
+        line-height: 1.5em;
+        height: 1.5em;
+        top: 32px;
+    }
+}
