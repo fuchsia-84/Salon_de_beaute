@@ -959,7 +959,7 @@ body {
     margin: 27px auto;
     text-align: center;
     font-size: 1.0rem;
-    line-height: 1.0rem;
+    line-height: 1.0em;
 }
 .reserve_info .hb_link span {
     margin-left: 20px;
@@ -1122,6 +1122,13 @@ body {
 @media screen and (max-width: 500px) {
     .reserve_info .hb_link {
         font-size: 0.75rem;
+    }
+    .reserve_info .hb_link a {
+        padding: 7px 20px;
+        border-radius: 30px;
+    }
+    .reserve_info .hb_link i {
+        padding: 9px 11px;
     }
 }
 
