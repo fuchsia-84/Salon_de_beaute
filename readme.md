@@ -13,7 +13,7 @@ Web上で配布された制作課題を元に、<u>**親しみのわく下町の
 ### 課題元
 
 - [【美容室編】Webデザイン実践課題配布！（ポートフォリオ掲載OK） \| PENGIN BLOG](https://crestadesign.org/webdesign-work01/)
-- 制作者さまTwitter: [@penguin_company](https://twitter.com/penguin_company)
+- 制作者さまTwitter: [@pengin_company](https://twitter.com/pengin_company)
 
 ## 特徴
 
