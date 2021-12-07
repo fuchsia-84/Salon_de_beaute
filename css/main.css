@@ -9,12 +9,12 @@ html {
     position: relative;
     letter-spacing: 0.05em;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     html {
         font-size: 18px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
     html {
         font-size: 16px;
     }
@@ -52,13 +52,13 @@ body {
   clear: both;
   display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .inner {
         width: calc(100% - 100px);
         max-width: calc(100% - 100px);
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
     .inner {
         width: calc(100% - 60px);
         max-width: calc(100% - 60px);
@@ -89,7 +89,7 @@ body {
     padding-top: 23px;
     padding-bottom: 6px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .section_title h1 {
         font-family: 'Patrick Hand', cursive;
         font-size: 1.33rem;
@@ -110,7 +110,7 @@ body {
 .br_pc {
     display: block;
 }
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 1024px) {
     .br_pc {
         display: none;
     }
@@ -118,7 +118,7 @@ body {
 .br_tab {
     display: none;
 }
-@media screen and  (max-width: 768px) {
+@media screen and  (max-width: 1024px) {
     .br_tab {
         display: block;
     }
@@ -126,7 +126,7 @@ body {
 .br_sp {
     display: none;
 }
-@media screen and  (max-width: 500px) {
+@media screen and  (max-width: 599px) {
     .br_sp {
         display: block;
     }
@@ -246,7 +246,7 @@ body {
     top: 19px;
     transform: rotate(135deg);
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     #header {
         width: 100%;
         padding: 0;
@@ -320,7 +320,7 @@ body {
     top: 465px;
     left: 10%;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
     .top {
         min-height: 100vh;
     }
@@ -356,7 +356,7 @@ body {
 .concept li {
     margin-bottom: 30px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .concept ul {
         max-width: calc(100% - 40px);
     }
@@ -376,7 +376,7 @@ body {
         margin-bottom: 30px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
     .concept ul {
         margin: 40px auto;
     }
@@ -479,7 +479,7 @@ body {
     line-height: 40px;
     margin: 0 auto;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .staff_top, .staff_bottom {
         width: 100%;
     }
@@ -539,7 +539,7 @@ body {
 }
 
 /*style*/
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .style {
         overflow: hidden;
     }
@@ -549,7 +549,7 @@ body {
 #gallery_pc {
     display: block;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
     #gallery_pc {
         display: none;
     }
@@ -575,7 +575,7 @@ body {
 .gallery_sp {
     display: none;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
     .gallery_sp {
         display: block;
         margin-top: 40px;
@@ -628,7 +628,7 @@ body {
 .flickity-page-dots .dot.is-selected {
     background: #9D8154;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
     .flickity-button {
         display: none;
     }
@@ -818,7 +818,7 @@ body {
     font-size: 2.0rem;
     margin-right: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .menu_content:nth-child(odd) {
         float: none;
         margin: 0;
@@ -1042,7 +1042,7 @@ body {
 .reserve .time_right {
     margin-left: 20px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .reserve_info .tell {
         max-width: 180px;
         padding: 2px 0;
@@ -1119,7 +1119,7 @@ body {
     }
 
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
     .reserve_info .hb_link {
         font-size: 0.75rem;
     }
@@ -1204,7 +1204,7 @@ body {
     width: 100%;
     height: 400px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .access_top, .access_bottom {
         display: block;
         width: calc(100% - 40px);
@@ -1249,7 +1249,7 @@ body {
         height: 300px;
     }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 599px) {
     .access_top .salon_info dl {
         padding-left: 20px;
         font-size: 0.75rem;
@@ -1284,7 +1284,7 @@ body {
     position: absolute;
     top: 41px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     #footer {
         height: 80px;
     }
