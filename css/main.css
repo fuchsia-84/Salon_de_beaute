@@ -25,15 +25,6 @@ body {
     font-family: 'Kiwi Maru', serif;
     position: relative;
 }
-/*
-@media screen and (max-width: 900px) {
-    body, header {
-        max-width: 1080px;
-        min-width: 1080px;
-        position: relative;
-    }
-}
-*/
 
 /* global */
 .number {
@@ -1154,14 +1145,12 @@ body {
     -webkit-mask-size: contain;
     mask-repeat: no-repeat;
     -webkit-mask-repeat: no-repeat;
-    /* ToDo: fix mask image */
 }
 #salon_image {
     mask-image: url(../svg/access.svg);
     -webkit-mask-image: url(../svg/access.svg);
     mask-mode: alpha;
     -webkit-mask-mode: alpha;
-    /* ToDo: fix mask image */
 }
 .access_top .salon_info {
     display: inline-block;
@@ -1214,7 +1203,6 @@ body {
         display: block;
         width: 100%;
         height: auto;
-        /* ToDo: fix mask image */
     }
     .access_top .salon_info {
         display: block;
